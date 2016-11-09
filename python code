@@ -5,3 +5,7 @@ import sklearn.linear_model as lm
 from sklearn.model_selection import GridSearchCV
 import matplotlib.pyplot as plt
 %matplotlib inline
+
+#read train data
+train = pd.read_csv('/Users/yan/Documents/652C-Hu Yifan/final project/Titanic/train.csv')
+train
