@@ -11,9 +11,6 @@ train = pd.read_csv('/Users/yan/Documents/652C-Hu Yifan/final project/Titanic/tr
 train
 
 #use median to fill the missing value in Age
-n=train['Age'].median()
-n
-
 train['Age'] = train['Age'].fillna(train['Age'].median())
 train
 
